@@ -15,9 +15,9 @@
                 return "Hallo saya $name, umur saya $umur tahun";
             }
         ?>
-        <p><?= sayHallo("loveiana", 17) ?></p>
+        <p><?= sayHallo("loveiana", 19) ?></p>
         <p><?= sayHallo("juldin", 16) ?></p>
-        <p><?= sayHallo("ridwan", 76) ?></p>
+        <p><?= sayHallo("ridwan", 20) ?></p>
     </div>
 </body>
 </html>

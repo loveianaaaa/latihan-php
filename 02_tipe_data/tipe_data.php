@@ -11,6 +11,8 @@
     }
     th, td {
         padding: 10px;
+        background-color: #f0c6ff;
+
     }
     th {
         background-color: #af4c6d;
@@ -20,19 +22,22 @@
   </head>
   <body>
   <table>
-    <tr>
-        <th>nama</th>
-        <th>kelas</th>
-        <th>tanggal praktikum</th>
-        <th>foto</th>
-    </tr>
-    <tr>
-        <td>loveiana</td>
-        <td>XI-RPL</td>
-        <td>30-januari-2024</td>
-        <td><img src="me.jpg" alt="Flowers in Chania" width="140" height="90"></img></td>
-    </tr>
-    <tr>          
+  <thead>
+        <tr>
+            <th>nama</th>
+            <th>kelas</th>
+            <th>tanggal praktikum</th>
+            <th>foto</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>loveiana</td>
+            <td>XI-RPL</td>
+            <td>30-januari-2024</td>
+            <td><img src="../poto opey.jpg" alt="Flowers in Chania" width="140" height="90"></img></td>
+        </tr>
+    </tbody>       
   </table>
 <!-- didalam tipe data ada beberapa pemograman yang harus dipahami yaitu
     -integer

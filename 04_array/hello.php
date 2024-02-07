@@ -13,7 +13,7 @@
         padding: 10px;
     }
     th {
-        background-color: #af4c6d;
+        background-color: #00ff00;
         color: white;
     }
   </style>
@@ -30,7 +30,7 @@
         <td>loveiana</td>
         <td>XI-RPL</td>
         <td>30-januari-2024</td>
-        <td><img src="me.jpg" alt="Flowers in Chania" width="140" height="90"></img></td>
+        <td><img src="../poto opey.jpg" alt="Flowers in Chania" width="140" height="90"></img></td>
     </tr>
     <tr>          
   </table>
@@ -38,17 +38,17 @@
   <div class="container">
         <h2>Array</h2>
         <?php
-            $motocycles2T = [
-                ["iphone", 22, 18],
-                ["samsung", 15, 13],
-                ["vivo", 5, 2],
-                ["oppo", 17, 15]
+            $Laptops = [
+                ["ASUS", 22, 18],
+                ["LENOVO", 15, 13],
+                ["MACBOOK", 5, 2],
+                ["DELL", 17, 15]
             ];
         ?>
         <ul>
-            <?php foreach ($motocycles2T as $motocycle) : ?>
+            <?php foreach ($Laptops as $Laptop) : ?>
                 <li>
-                    Merk: <?= $motocycle[0] ?> | Stock: <?= $motocycle[1] ?> | Sold: <?= $motocycle[2] ?>
+                    Merk: <?= $Laptop[0] ?> | Stock: <?= $Laptop[1] ?> | Sold: <?= $Laptop[2] ?>
                 </li>
                 
             <?php endforeach ?>

@@ -9,7 +9,7 @@
 <body>
         <h2>if Statement</h2>
         <?php
-            $nilai = 98;
+            $nilai = 56;
 
             if ($nilai > 90) {
                 $grade = "A+";
