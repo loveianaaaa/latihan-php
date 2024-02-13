@@ -11,6 +11,8 @@
     }
     th, td {
         padding: 10px;
+        background-color: #f0c6ff;
+
     }
     th {
         background-color: #00ff00;
@@ -34,7 +36,7 @@
     </tr>
     <tr>          
   </table>
-  <!-- Array adalah struktur data yang dapat menyimpan satu atau lebih nilai dalam satu variabel tunggal. Setiap nilai dalam array memiliki indeks unik, yang memungkinkan kita mengakses nilai tersebut dengan mudah. -->
+  <!-- Array itu struktur data yang bisa menyimpan satu/lebih nilai dalam satu variabel tunggal. nilai dalam array juga memiliki indeks unik, yang memungkinkan kita mengakses nilai tersebut dengan mudah. -->
   <div class="container">
         <h2>Array</h2>
         <?php
